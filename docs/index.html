@@ -12,8 +12,30 @@
 </head>
 
 <body>
-    <header>
-        <h1>Nombre blog</h1>
+    <header class="header">
+        <div class="container">
+            <div class="row-nav-bar justify-content-between aling-item-center">
+                <div class="logo">
+                    <a href="#">logo</a>
+                    <h1>Nombre blog</h1>
+                </div>
+                <button type="button" class="open-nav">
+                <span></span>
+                </button>
+                <!-- Menu de navegador -->
+                <nav class="nav">
+                    <button type="button" class="close-nav">&times;</button>
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Wallpaper</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
     <div class="row">
         <div class="columna-izquierda">
@@ -66,6 +88,7 @@
         <h2>FOOTER</h2>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
