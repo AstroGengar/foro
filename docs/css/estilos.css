@@ -5,6 +5,12 @@ body {
     background-color: #000000;
 }
 
+
+/* El "*" significa que le aplicaremos estas propiedades
+a todos los elementos, esto para que tengan cero márgenes, 
+y cero padding, haciendo así que se vean igual en todos los navegadores.
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1700px;
     margin: auto;
 }
 
@@ -262,6 +268,7 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+    line-height: 2;
 }
 
 
