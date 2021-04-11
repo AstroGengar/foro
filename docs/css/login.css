@@ -1,0 +1,90 @@
+body {
+    background: url(/docs/img/login/thumb-1920-987919.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.seccion-principal {
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.modal-content {
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.imagen-usuario {
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.imagen-usuario img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+
+/*Le decimos que estamos haciendo refencia a 
+este tipo de libreria*/
+
+
+/*Esto es posible gracias al link de JS */
+
+.form-group::before {
+    font-family: "Font Awesome\ 5 Free";
+    /*Introducimos los iconos */
+    position: absolute;
+    /*Los movemos a la izquierda*/
+    left: 28px;
+    /*Agrandamos los iconos con font-size ya que son tipos de letra*/
+    font-size: 22px;
+    /*Lo bajamos un poco con padding-top*/
+    padding-top: 4px;
+}
+
+
+/*Agregamos los iconos utilizando el numeral
+ haciendo referencia a los id*/
+
+.form-group#user-group::before {
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before {
+    content: "\f023";
+}
+
+
+/*Organizamos el boton ingresar */
+
+button {
+    /*Ancho del boton*/
+    width: 60%;
+    /*5 arriba, 0 a los lados y 25 hacia abajo*/
+    margin: 5px 0 25px;
+}
+
+.recordar {
+    /*5 arriba y abajo y 0 a los lados*/
+    padding: 5px 0;
+}
+
+
+/*Color a la letra*/
+
+.recordar a {
+    color: white;
+}
