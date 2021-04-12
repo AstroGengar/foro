@@ -53,9 +53,15 @@ ul {
 
 /* header */
 
+.header h1 {
+    font-family: Arial;
+    color: black;
+}
+
 .header {
     background: color #4f67e9;
     padding: 12px 15px;
+    background-color: #0a959d;
 }
 
 header.logo a {
@@ -120,6 +126,11 @@ header h1 {
 h2 {
     color: #000000;
     margin: 1.5 0px;
+}
+
+h5 {
+    font-family: Negrita;
+    color: #ff0f88;
 }
 
 .columna-izquierda {

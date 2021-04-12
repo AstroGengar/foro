@@ -127,8 +127,6 @@ h2 {
     width: 100%;
 }
 
-
-
 .card {
     padding: 20px;
     background-color: #f8efe0;
@@ -254,6 +252,11 @@ en el tiempo indicado en .header .nav ul li a::before)*/
 
 
 /*Margen a las imagenes de la columna derecha*/
+
+.columna-izquierda {
+    float: left;
+    width: 75%;
+}
 
 .columna-derecha .card img {
     margin-bottom: 10px;

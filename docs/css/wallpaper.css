@@ -1,7 +1,27 @@
 body {
-    background-color: #abd9e3;
+    background-color: #12717d;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    color: white;
 }
 
 .container {
     background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2;
 }
