@@ -1,5 +1,5 @@
 body {
-    background-color: #12717d;
+    background-color: #f6edaa;
     font-family: Arial;
     margin: 0;
     padding: 20px;
@@ -9,8 +9,18 @@ header {
     background-color: black;
 }
 
-h1 {
+.nav {
+    background-color: #e88a37;
+}
+
+.nav-link {
+    font-size: 19px;
+    font-family: Arial;
     color: white;
+}
+
+h1 {
+    color: black;
 }
 
 .container {
