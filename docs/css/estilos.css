@@ -280,6 +280,7 @@ en el tiempo indicado en .header .nav ul li a::before)*/
 
 footer {
     position: relative;
+    top: 18px;
     bottom: 0;
     width: 100%;
     background: black;
@@ -319,7 +320,7 @@ footer {
 }
 
 .left .content .social a {
-    padding: 2px;
+    padding: 10.8px;
 }
 
 .left .content .social a span {
