@@ -1,4 +1,4 @@
 #Foro noticias anime y manga
 
-Integrandes:
+Integrantes:
 Israel Bórquez, Nicolás Salgado, Robert Bustos.
