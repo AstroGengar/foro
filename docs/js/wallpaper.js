@@ -7,7 +7,7 @@ for (imagen of wallpapers) {
     galeria.innerHTML += `
                 <div class="card">
                 <a href="#" data-toggle="modal" data-target="#id` + imagen + `">
-                    <img src="/docs/img/wallpaperforo/` + imagen + `.png" alt="" class="card-img-top">
+                    <img src="../img/wallpaperforo/` + imagen + `.png" alt="" class="card-img-top">
                 </a>
 
             </div>
@@ -22,7 +22,7 @@ for (imagen of wallpapers) {
             <!-- modal-lg para que sea mas grande y modal dialog-centered para posicionar imagen en el centro de la pantalla verticalmente-->
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <!-- Fluid para que sea responsiva y rounded para que tenga bordes redondeados-->
-                <img src="/docs/img/wallpaperforo/` + imagen + `.png" alt="" class="img-fluid rounded">
+                <img src="../img/wallpaperforo/` + imagen + `.png" alt="" class="img-fluid rounded">
 
             </div>
         </div>
