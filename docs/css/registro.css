@@ -83,11 +83,6 @@ ion-icon {
     min-height: 100vh;
 }
 
-.testimonial {
-    position: absolute;
-    bottom: 10px;
-}
-
 
 /*Responsive*/
 
@@ -100,5 +95,11 @@ ion-icon {
     }
     .width-100 {
         width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .register-bg {
+        min-height: 50vh;
     }
 }

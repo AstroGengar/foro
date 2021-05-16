@@ -1,5 +1,10 @@
 body {
-    background-color: #f6edaa;
+    background: #CAC531;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F3F9A7, #CAC531);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: Arial;
 }
 
@@ -14,7 +19,7 @@ header {
 }
 
 .nav {
-    background-color: #e88a37;
+    background-color: #CAC531;
 }
 
 .nav-link {
