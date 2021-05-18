@@ -29,7 +29,7 @@ form.addEventListener("submit", function(event) {
     var nombre = $('#nombre').val();
     var contrasena = $('#contrasena').val();
     if (nombre != "" && contrasena != "") {
-        alert("A ingreado exitosamente");
+        alert("A ingresado exitosamente");
 
     } else {
         alert("Por favor rellene todos los campos.");
