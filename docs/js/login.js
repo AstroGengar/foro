@@ -22,7 +22,7 @@ $(document).ready(function() {
 });
 
 
-const form = document.getElementById("login-form");
+const form = document.getElementById("#login-form");
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
